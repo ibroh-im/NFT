@@ -1,0 +1,418 @@
+/* sections css */
+/* - - - - - mini-navbar - - - - - - - */
+.mini-nav {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #EFF0F1;
+}
+
+/* - - - - - navbar - - - - - - - */
+.navbar {
+  flex-wrap: nowrap;
+}
+
+.nav-item {
+  border-bottom: 1px solid white;
+  padding: 0.5rem 0;
+}
+.nav-item a {
+  color: #000000;
+}
+
+.nav-item:hover {
+  color: black !important;
+  border-bottom: 1px solid #4945FF;
+}
+
+
+.catalog-btn {
+  color: white;
+  background: linear-gradient(180deg, #6C69FF 0%, #4F4BFF 100%);
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+  .navbar-logo {
+    width: 200px;
+    height: 40px;
+  }
+}
+
+
+/*?                            STYLEGUIDE                         */
+
+.survey__card{
+  width: 45%;
+}
+.survey__card h3{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  color: #000000;
+}
+.survey__hover-text{
+  background: #F7F7F8;
+  border-radius: 40px 0px;
+  width: 100%;
+}
+.survey__hover-text div{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+.survey__hover-text div:hover{
+  cursor: pointer;
+}
+.survey__hover-text input{
+  width: 100%;
+  padding: 19px 46px;
+  border: 0;
+  color: #4945FF;
+}
+.survey__hover-text input:hover{
+  cursor: pointer;
+}
+.survey__hover-text i{
+  position: absolute;
+  color: #4945FF;
+  left: 4%;
+  top: 35%;
+}
+.survey__hover-text textarea{
+  color: #4945FF;
+  padding: 19px 20px;
+}
+.survey__card-active i{
+  color: #676767;
+}
+.survey__card-active i:active{
+  color: #4945FF;
+}
+.survey__card-active input{
+  color: #676767;
+}
+.survey__card-active textarea{
+  color: #676767;
+}
+.survey__hover-text h4{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #F34141;  
+  margin-top: 5px;
+}
+
+
+
+/*?            what-protects page css             */
+.breadcrumb-xl{
+  padding-top: 140px;
+}
+.header-fluid{
+  padding: 20px 0 50px;
+}
+.header-fluid p{
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Montserrat regular';
+}
+.header-fluid__img{
+  width: 45%;
+  height: 440px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.header-fluid__text{
+  width: 45%;
+}
+.header-fluid__text h2{
+  font-family: 'Montserrat semibold';
+  font-size: 30px;
+  line-height: 37px;
+  color: #2B2A2A;
+  padding-bottom: 15px;
+}
+.header-fluid__text img{
+  width: 25px ;
+  height: 25px;
+}
+.header-fluid__text h3{
+  font-family: 'Montserrat regular';
+  font-size: 16px;
+  line-height: 22px;
+  color: #676767;
+
+}
+.header-fluid__text button{
+  margin-top: 60px;
+  padding: 18px 34px 18px 34px;
+}
+.infection{
+  background: #F7F7F8 ;
+}
+.infection-p{
+  font-family: 'Montserrat regular';
+  font-size: 14px;
+  line-height: 22px;
+  color: #676767;
+  padding-left: 15px;
+  border-left: 3px solid #4945FF;
+}
+.infection__img{
+  width: calc(150px + 30vw);
+  height:calc(100px + 20vw);
+  object-fit: cover;
+  border-radius: 10px;
+}
+.save__img{
+  width: 670px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.mask h6{
+  font-family: 'Montserrat medium';
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2A2A;
+  padding-bottom: 30px;
+}
+.mask__button{
+  font-family: 'Montserrat regular';
+  font-size: 15px;
+  line-height: 18px;
+  color: #2B2A2A;
+  padding: 11px;  
+  border-radius: 10px;
+  border: 2px solid #C4C4C4;
+  background: transparent;
+  transition: all .3s ease-in-out;
+
+}
+
+.mask__button:hover , .mask__button_active{
+  border: 2px solid #4945FF;
+}
+.mask__img{
+  width: calc(150px + 35vw);
+  height:calc(80px + 20vw);
+  object-fit: cover;
+  border-radius: 10px;
+}
+.medical h2{
+  font-family: 'Montserrat medium';
+  font-size: 16px;
+  line-height: 20px;
+  color: #2B2A2A;
+  padding-bottom: 20px;
+}
+.respirator{
+  border-top: 1px solid #E5E5E7;
+  border-bottom: 1px solid #E5E5E7;
+}
+.respirator__img{
+  width: 670px;
+  height: 375px;
+}
+.protect__img{
+  width: 670px !important;
+  height: 350px !important;
+}
+.eyes__img{
+  width: 670px;
+  height: 375px;
+  border-radius: 10px;
+  border: 1px solid #E5E5E7;
+}
+.new-covid__card-1::after{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 24px;
+  background: #4945FF99;
+  position: absolute;
+  top: 55%;
+  left: -12px;
+}
+.new-covid__card-1::before{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 24px;
+  background: #4945FF99;
+  position: absolute;
+  top: 55%;
+  right:-12px;
+}
+.new-covid__card-2::before{
+  content: '';
+  display: block;
+  height: 3px;
+  width: 24px;
+  background: #4945FF99;
+  position: absolute;
+  top: 55%;
+  right:-12px;
+}
+.features-text{
+  font-family: 'Montserrat regular';
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  color: #676767;
+  padding-left: 16px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+.features-text::before{
+  width: 6px;
+  height: 6px;
+  content: '';
+  display: block;
+  background: #4945FF;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+}
+.swiper-slide{
+  position: relative  !important;
+}
+.slide-img{
+  width: 100%;
+  height: 480px;
+}
+.header__swippper{
+  width: 60% !important;
+}
+.header__text{
+  width: 40% !important;
+}
+/*?            what-protects page css             */
+@media screen and (max-width:1400px) {
+  .save__img{
+    width: calc(100px + 30vw);
+    height:calc(80px + 20vw);
+  }
+  .mask__img{
+    width: calc(100px + 30vw);
+    height:calc(80px + 20vw);
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .respirator__img{
+    width: calc(100px + 30vw);
+    height:calc(80px + 20vw);
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .protect__img{
+    width: calc(100px + 30vw) !important;
+    height:calc(80px + 20vw) !important;
+    object-fit: cover ;
+    border-radius: 10px;
+  }
+  .eyes__img{
+    width: calc(100px + 30vw) !important;
+    height:calc(80px + 20vw) !important;
+    object-fit: cover ;
+  }
+  
+}
+@media screen and (max-width:988px) {
+  .header__swippper{
+    width: 80% !important;
+  }
+  .header__text{
+    width: 100% !important;
+  }
+  
+}
+@media screen and (max-width: 767px){
+  .survey__card{
+    width: 100%;
+  }
+  .header__swippper{
+    width: 100% !important;
+  }
+  /*?            what-protects page css             */
+  .header-fluid__img{
+    width: 100%;
+    height: calc(50px + 50vw );
+    margin-bottom: 30px;
+  }
+  .header-fluid__text{
+    width: 100% !important;
+  }
+  .infection__img{
+    width: 100%;
+  }
+  .infection .container-xs{
+    gap: 30px !important;
+  }
+  .save__img{
+    width: 100%;
+    height: calc(100px + 20vw);
+  }
+  .mask__text{
+    width: 100% !important;
+  }
+  .mask__image{
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .mask__img{
+    width: 100% !important;
+    height: calc(100px + 20vw);
+  }
+  .respirator__img{
+    width: 100% !important;
+  }
+  .respirator__text{
+    width: 100% !important;
+  }
+  .protect__img{
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .protect__text{
+    width: 100% !important;
+  }
+  .eyes__img {
+    width: 100% !important;
+    margin-bottom: 20px;
+  }
+  .eyes__text{
+    width: 100% !important;
+  }
+  .new-covid__card-1::after, .new-covid__card-1::before,  .new-covid__card-2::before{
+    width: 0 !important; height: 0 !important;
+  }
+/*?            what-protects page css             */
+
+
+}
+@media screen and (max-width:480px) {
+  .slide-img{
+    width: 300px;
+    height: 300px;
+  }  
+  .modal{
+    display: none !important;
+  }
+}
