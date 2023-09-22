@@ -1,62 +1,223 @@
-    ul {
-        margin: 0 !important;
-    }
+ul {
+    margin: 0 !important;
+}
 
-    .pp {
-        color: blue;
-    }
-    .PT {
-        margin-top: 100px;
-    }
+.pp {
+    color: blue;
+}
+.PT {
+    margin-top: 100px;
+}
 
-    .footer-p {
-        width: 330px;
+.footer-p {
+    width: 330px;
+}
+.footer-p1 {
+    width: 260px;
+}
+.input-width {
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+    padding: 16px ;
+}
+.buttonn {
+    border: none;
+    border-radius: 16px;
+    padding: 16px 30px ;
+}
+.formdiv {
+    width: 400px;
+    position: relative;
+}
+form button {
+    position:absolute;
+    right: 0;
+}
+.cardsize {
+    font-size: 22px;
+}
+.text-regular {
+    font-size: 22px;
+    line-height: 35px;
+}
+.tittle-regualr {
+    font-size: 38px;
+    line-height: 45px;
+}
+.link-a span {
+    font-size: 16px;
+}
+.link-a div {
+    border-radius: 20px;
+}
+
+/* cards start */
+.cardsMenu {
+    gap: 20px;
+    display: grid;
+    grid-template: auto / auto auto auto auto;
+}
+.card1 {
+    position: relative;
+    border-radius: 20px;
+    background: #3B3B3B;
+    padding:30px 25px;
+    text-align: center;
+    display: block;
+}
+.userDescription {
+    margin-bottom: 0!important;
+    margin-top: 4px;
+    color: #858584;
+    font-family: 'Rubik-regular';
+}
+.userDescriptionInfo{
+    color: white;
+    font-family: 'Rubik-regular';
+}
+.cardImg {
+    width: 120px;
+    height: 120px;
+}
+.userName {
+    margin-top: 10px;
+    margin-bottom: 0!important;
+    font-family: 'Rubik-bold';
+    font-size: 22px;
+    padding: 5px 0 0 0;
+    color: white;
+}
+.cardNumber {
+    color: #858584;
+    background: #2B2B2B;
+    border-radius: 100%;
+    /* padding: 6px 14px ; */
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    display: inline-block;
+    font-family: 'Rubik-regular';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.cardNumber1 {
+    color: #858584;
+    background: #2B2B2B;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    /* padding: 6px 11px; */
+    display: inline-block;
+    font-family: 'Rubik-regular';
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+/* cards end */
+
+@media screen and (max-width:992px) {
+    .footer-p { 
+        width: 100%;
     }
-    .footer-p1 {
-        width: 260px;
+    .footer-p1 { 
+        width: 100%;
+    }
+    .cardsize {
+        font-size: 20px;
+    }
+    .text-regular {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .link-a span {
+        font-size: 14px;
+    } 
+    .link-a div {
+        border-radius: 14px;
+    }
+    .cardsMenu {
+        display: grid;
+        grid-template: auto / auto auto;
+    }
+    .cardImg {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media screen and (max-width:576px) {
+    .tittle-regualr {
+        font-size: 28px;
+        line-height: 39px;
+    }
+    .cardsMenu {
+        display: grid;
+        grid-template: auto / auto;
+    }
+    .card1 {
+        border-radius: 20px;
+        text-align: start;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+    .cardImg {
+        width: 60px;
+        height: 60px;
+    }
+    .userName {
+        margin-top: 0;
+        padding:0;
+    }
+    .cardsize {
+        font-size: 16px;
     }
     .input-width {
-        width: 100%;
-        border: none;
-        border-radius: 16px;
-        padding: 16px ;
-    }
-    .buttonn {
-        border: none;
-        border-radius: 16px;
-        padding: 16px 30px ;
-    }
-    .formdiv {
-        width: 400px;
-        position: relative;
-    }
-    form button {
-        position:absolute;
-        right: 0;
-    }
-    @media screen and (max-width:960px) {
-        .footer-p { 
-            width: 100%;
-        }
-        .footer-p1 { 
-            width: 100%;
-        }
-    }
-    @media screen and (max-width:576px) {
-    .input-width {
-        padding: 10px 16px;
-        border-radius: 50px;
-    }
-    .buttonn {
-        width: 100%;
-        padding: 10px 20px;
-        border-radius: 50px;
-    }
-    .formdiv{
-        width: 100%;
-    }
-    form button {
-        position:static;
-        margin-top: 10px;
-    }
-    }
+    padding: 10px 16px;
+    border-radius: 50px;
+}
+.buttonn {
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.formdiv{
+    width: 100%;
+}
+form button {
+    position:static;
+    margin-top: 10px;
+}
+.cardNumber {
+    color: #858584;
+    background: #2B2B2B;
+    border-radius: 100%;
+    /* padding: 6px 14px ; */
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    display: inline-block;
+    font-family: 'Rubik-regular';
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    left: 15px;
+}
+.cardNumber1 {
+    color: #858584;
+    background: #2B2B2B;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+    /* padding: 6px 11px; */
+    display: inline-block;
+    font-family: 'Rubik-regular';
+    position: absolute;
+    top: 20px;
+    text-align: center;
+    left: 15px;
+}
+}
