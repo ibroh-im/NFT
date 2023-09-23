@@ -150,3 +150,79 @@ new MenuCard(
     '.cardsMenu'
 ).render()
 
+// class cards
+class Card {
+    constructor(src,alt, tittle, parentSelector){
+        this.src = src
+        this.alt = alt
+        this.tittle = tittle
+        this.paretns = document.querySelector(parentSelector)
+    }
+    render() {
+        const elements = document.createElement("div")
+
+        elements.innerHTML = `
+        <div class="card2">
+          <img class="cardsImg" src=${this.src} alt=${this.alt}>
+            <p class="firstType">${this.tittle}</p>
+        </div> 
+        `
+        this.paretns.append(elements)
+        
+    }
+}
+new Card(
+    './project/images/cards-2.png',
+    'cardFilter',
+    'Art',
+    '.cards'
+).render()
+
+new Card(
+    './project/images/cards-2-2.png',
+    'cardFilter',
+    'Collectibles',
+    '.cards'
+).render()
+
+new Card(
+    './project/images/cards-2-3.png',
+    'cardFilter',
+    'Music',
+    '.cards'
+).render()
+
+new Card(
+    './project/images/cards-2-4.png',
+    'cardFilter',
+    'Photography',
+    '.cards'
+).render()
+
+new Card(
+    './project/images/cards-2-5.png',
+    'cardFilter',
+    'Video',
+    '.cards'
+).render()
+
+new Card(
+    './project/images/cards-2-6.png',
+    'cardFilter',
+    'Utility',
+    '.cards'
+).render()
+
+new Card(
+    './project/images/cards-2-7.png',
+    'cardFilter',
+    'Sport',
+    '.cards'
+).render()
+
+new Card(
+    './project/images/cards-2-8.png',
+    'cardFilter',
+    'Virtual Worlds',
+    '.cards'
+).render()

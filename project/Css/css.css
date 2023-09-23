@@ -1,7 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 ul {
     margin: 0 !important;
 }
-
+.navbarbig {
+    margin-bottom: 100px;
+}
 .pp {
     color: blue;
 }
@@ -25,6 +33,11 @@ ul {
     border: none;
     border-radius: 16px;
     padding: 16px 30px ;
+}
+.formdiv1 {
+    margin-top: 20px;
+    width: 400px;
+    position: relative;
 }
 .formdiv {
     width: 400px;
@@ -118,7 +131,151 @@ form button {
 }
 /* cards end */
 
+/* cards start */
+.cards{
+    margin-top: 40px;
+    width: 100%;
+    gap: 20px;
+    display: grid;
+    grid-template: auto / auto auto auto auto;
+}
+.card2 {
+    width: 100%;
+    display: inline-block;
+    background: #3B3B3B;
+    border-radius: 20px;
+}
+.firstType {
+    padding: 20px;
+    color: white;
+    font-family: 'Rubik-semibold';
+    font-size: 22px;
+}
+.cardsImg {
+    height: 100%;
+    width: 100%;
+}
+/* cards end */
+.rowww {
+    display: grid;
+    gap: 20px;
+    grid-template: auto /auto auto auto;
+}
+.rowss {
+    gap: 20px;
+    display: grid;
+    grid-template: auto / auto auto auto;
+}
+.p11 {
+    font-size: 24px;
+}
+.cardsp {
+    font-size: 44px;
+}
+.carddimg {
+    width: 50%;
+}
+.carddimg {
+    width: 50%;
+}
+.carddinfo {
+    width: 50%;
+}
+.header-tittle {
+    line-height: 73px !important;
+    font-size: 70px;
+    color: white;
+    font-family: 'Rubik-semibold';
+}
+.header-half {
+    width: 47%;
+}
+.header-half2 {
+    width: 47%;
+}
+.text-descr {
+    font-size: 22px;
+    line-height: 35px;
+}
+.header-number {
+    font-size: 28px;
+    margin-bottom: 0 !important;
+}
+header{
+    margin-bottom: 65px;
+}
+.header-infor {
+    max-width: 400px;
+}
+.createheader{
+    width: 48%;
+}
+.createheader1{
+    width: 48%;
+}
+.createheader img {
+    height: 100vh;
+}
+.inputs {
+    max-width: 400px;
+}
+.inputs1 {
+    max-width: 320px;
+}
+
+@media screen and (max-width:768px) {
+    header{
+        margin-bottom: 35px;
+    }
+    .carddimg {
+        width: 100%;
+    }
+    .carddinfo {
+        width: 100%;
+    }
+    form .button1 {
+        position:static;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .header-half {
+        width: 100%;
+    }
+    .header-half2 {
+        width: 100%;
+    }
+    .header-half2 img {
+        height: 300px;
+    }
+    .inputs {
+        max-width:100%;
+    }
+    .inputs1 {
+        max-width:100%;
+    }
+    .createheader{
+        width:100%;
+    }
+    .createheader1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .createheader img {
+        height: 40vh;
+        margin-bottom: 10px;
+    }
+    .header-create {
+        height: 100%;
+    }
+}
 @media screen and (max-width:992px) {
+    .navbarbig {
+        margin-bottom: 56px;
+    }
+    .firstType {
+        font-size: 16px;
+    }
     .footer-p { 
         width: 100%;
     }
@@ -146,8 +303,51 @@ form button {
         width: 80px;
         height: 80px;
     }
+    .cardsImg {
+        width:100%;
+    }
+    .cards{
+        display: grid;
+        grid-template: auto / auto auto;
+    }
+    .rowss {
+        display: grid;
+        grid-template: auto / auto;
+    }
+    .rowss img {
+        width: 95px;
+        height: 95px;
+    }
+    .p11 {
+        font-size: 18px;
+    }
+    .p2 {
+        font-size: 14px;
+    }
+    .cardsp {
+        font-size: 28px;
+    }
+    .formdiv1 {
+        margin-top: 20px;
+        width: 100%;
+        position: relative;
+    }
+    .header-tittle {
+        font-size: 38px;
+        line-height: 45px !important;
+    }
+    .text-descr {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+.header-number {
+    font-size: 22px;
+    
+}
 }
 @media screen and (max-width:576px) {
+    
     .tittle-regualr {
         font-size: 28px;
         line-height: 39px;
@@ -182,6 +382,9 @@ form button {
     width: 100%;
     padding: 10px 20px;
     border-radius: 50px;
+}
+.formdiv1{
+    width: 100%;
 }
 .formdiv{
     width: 100%;
@@ -219,5 +422,14 @@ form button {
     top: 20px;
     text-align: center;
     left: 15px;
+}
+.rowww {
+    display: grid;
+    gap: 20px;
+    grid-template: auto /auto;
+}
+.header-tittle {
+    font-size: 28px;
+    line-height: 39px !important;
 }
 }
